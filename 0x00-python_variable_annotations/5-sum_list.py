@@ -3,9 +3,10 @@
 """
 A function that takes a list and returns sum of list.
 """
+from typing import List
 
 
-def sum_list(input_list: list[float]) -> float:
+def sum_list(input_list: List[float]) -> float:
     """
     A function that takes a list parameters and returns
     sum.
