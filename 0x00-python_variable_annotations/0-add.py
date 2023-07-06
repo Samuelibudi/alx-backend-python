@@ -4,14 +4,15 @@
 A function that takes two floats and returns sum as a float.
 """
 
-def add(a : float, b : float) -> float:
+
+def add(a: float, b: float) -> float:
     """
     A function that takes two float parameters and returns
     sum as a float
 
     @Params:
-        a (float) : First float argument.
-        b (float) : Second float argument.
+        a (float): First float argument.
+        b (float): Second float argument.
 
     Returns:
         float: Returning value
