@@ -5,7 +5,7 @@ A function that takes a list and returns sum of list.
 """
 
 
-def sum_list(input_list: list) -> float:
+def sum_list(input_list: list[float]) -> float:
     """
     A function that takes a list parameters and returns
     sum.
