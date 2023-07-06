@@ -11,7 +11,7 @@ def sum_list(input_list: list) -> float:
     sum.
 
     @Params:
-        input_list (list): List argument 
+        input_list (list): List argument
 
     Returns:
         float: Returning value
