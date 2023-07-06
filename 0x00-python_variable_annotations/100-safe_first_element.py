@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-"""Duck typing annotation"""
-from typing import Union, Any, Sequence, List, Tuple, Iterable
+""" Duck typing - first element of a sequence """
+from typing import Any, Union, Sequence, Iterable, List, Tuple
 
 
-def safe_first_element(lst: Sequence[Any]) -> Union[None, Any]:
-    """Returns first element of a list if it exists,
-       otherwise returns none.
-    """
+# The types of the elements of the input are not known
+def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
+    """ Safe first element """
     if lst:
         return lst[0]
     else:
